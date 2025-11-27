@@ -5,14 +5,14 @@ int main(void){
     char answer;
     setlocale(LC_ALL,"");
 
-    printf("Выберите правильный вариант ответа.\n\n");
-    printf("Начало и конец Второй мировой войны:\n");
-    printf("\ta. 1 сентября 1939 — 9 мая 1945\n");
-    printf("\tb. 1 сентября 1939 — 2 сентября 1945\n");
-    printf("\tc. 22 июня 1941 — 9 мая 1945\n");
-    printf("\td. 22 июня 1941 — 2 сентября 1945\n");
+    printf("Г‚Г»ГЎГҐГ°ГЁГІГҐ ГЇГ°Г ГўГЁГ«ГјГ­Г»Г© ГўГ Г°ГЁГ Г­ГІ Г®ГІГўГҐГІГ .\n\n");
+    printf("ГЌГ Г·Г Г«Г® ГЁ ГЄГ®Г­ГҐГ¶ Г‚ГІГ®Г°Г®Г© Г¬ГЁГ°Г®ГўГ®Г© ГўГ®Г©Г­Г»:\n");
+    printf("\ta. 1 Г±ГҐГ­ГІГїГЎГ°Гї 1939 вЂ” 9 Г¬Г Гї 1945\n");
+    printf("\tb. 1 Г±ГҐГ­ГІГїГЎГ°Гї 1939 вЂ” 2 Г±ГҐГ­ГІГїГЎГ°Гї 1945\n");
+    printf("\tc. 22 ГЁГѕГ­Гї 1941 вЂ” 9 Г¬Г Гї 1945\n");
+    printf("\td. 22 ГЁГѕГ­Гї 1941 вЂ” 2 Г±ГҐГ­ГІГїГЎГ°Гї 1945\n");
 
-    printf("\nВведите вариант ответа: ");
+    printf("\nГ‚ГўГҐГ¤ГЁГІГҐ ГўГ Г°ГЁГ Г­ГІ Г®ГІГўГҐГІГ : ");
     scanf("%c",&answer);
 
     switch (answer) {
@@ -36,11 +36,11 @@ int main(void){
 }
 
 /// Write a program that allows you to get a verbal description of school grades:
-//1 — bad
-//2 — unsatisfactory
-//3 — satisfactory
-//4 — good
-//5 — excellent
+//1 вЂ” bad
+//2 вЂ” unsatisfactory
+//3 вЂ” satisfactory
+//4 вЂ” good
+//5 вЂ” excellent
 #include <stdio.h>
 #include <locale.h>
 int main(void)
@@ -49,22 +49,22 @@ int main(void)
     scanf("%d",&estimation);
     switch (estimation){
         case 1:
-            printf("плохо");
+            printf("ГЇГ«Г®ГµГ®");
             break;
         case 2:
-            printf("неудовлетворительно");
+            printf("Г­ГҐГіГ¤Г®ГўГ«ГҐГІГўГ®Г°ГЁГІГҐГ«ГјГ­Г®");
             break;
         case 3:
-            printf("удовлетворительно");
+            printf("ГіГ¤Г®ГўГ«ГҐГІГўГ®Г°ГЁГІГҐГ«ГјГ­Г®");
             break;
         case 4:
-            printf("хорошо");
+            printf("ГµГ®Г°Г®ГёГ®");
             break;
         case 5:
-            printf("отлично");
+            printf("Г®ГІГ«ГЁГ·Г­Г®");
             break;
         default:
-            printf("Ошибка!");
+            printf("ГЋГёГЁГЎГЄГ !");
             break;
 
 
@@ -307,10 +307,10 @@ int main(void)
          case 1:
              switch (years){
                  case 11:
-                     printf("Мне %d лет",years);
+                     printf("ГЊГ­ГҐ %d Г«ГҐГІ",years);
                      break;
                  default:
-                     printf("Мне %d год",years);
+                     printf("ГЊГ­ГҐ %d ГЈГ®Г¤",years);
                      break;
              }
              break;
@@ -321,15 +321,15 @@ int main(void)
                  case 12:
                  case 13:
                  case 14:
-                     printf("Мне %d лет",years);
+                     printf("ГЊГ­ГҐ %d Г«ГҐГІ",years);
                      break;
                  default:
-                     printf("Мне %d года",years);
+                     printf("ГЊГ­ГҐ %d ГЈГ®Г¤Г ",years);
                      break;
              }
              break;
          default:
-             printf("Мне %d лет",years);
+             printf("ГЊГ­ГҐ %d Г«ГҐГІ",years);
              break;
      }
 
@@ -546,7 +546,7 @@ int main(void)
 {       int value_read;
         double x, y;
         value_read = scanf("%lf%lf", &x, &y);
-        // Добавьте сюда early returns
+        // Г„Г®ГЎГ ГўГјГІГҐ Г±ГѕГ¤Г  early returns
          if (value_read < 2) {
               printf("Incorrect input");
               return 0;
