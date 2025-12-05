@@ -1,5 +1,5 @@
 // ÍÀÕÎÆÄÅÍÈÅ ÏÅÐÈÌÅÒÐÀ ÔÈÃÓÐÛ INPUT ÄÂÀ ÇÍÀ×ÅÍÈß UTF-8 Прииврврвав
-/*#include <stdio.h>
+#include <stdio.h>
 int main(void){
     int diameter = 113, length = 335;
     double pi = 0.0;
@@ -234,7 +234,8 @@ int main(void)
 
     return 0;
 }
-*/
+
+
 
 
 
