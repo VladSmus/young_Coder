@@ -1,4 +1,4 @@
-/*
+
 //1. The area of one face of the cube;
 //2. The area of the entire cube surface;
 //3. The volume of the container.
@@ -416,5 +416,6 @@ int main(void)
     return 0;
 }
 
-*/
+
+
 
