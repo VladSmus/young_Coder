@@ -1,5 +1,5 @@
 // ASCII - ( American Standard Code for Information Interchange).
-/*
+
 // 1.1 Write a program to convert characters to uppercase.
 #include <stdio.h>
 
@@ -719,7 +719,8 @@ case 'x' : printf("-..-|");     break;
 
     return 0;
 }
-*/
+
+
 
 
 
