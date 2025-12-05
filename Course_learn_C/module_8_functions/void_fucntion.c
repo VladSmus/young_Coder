@@ -1,4 +1,4 @@
-/*
+
 // vabbalabbadabdab!
 // 1.1 Adder Write a function named sum that calculates the sum of two integer arguments passed to it.
 int sum(int a,int b){
@@ -428,4 +428,5 @@ int binary_search(int arr[], int n, int arg)
 }
 
 // THE END !
-*/
+
+
