@@ -1,4 +1,4 @@
-/*
+
 // 1.1 The last and first elements of the array are separated by a space.
 #include <stdio.h>
 int main(void)
@@ -534,3 +534,4 @@ int main() {
 
     return 0;
 }
+
